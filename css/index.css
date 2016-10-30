@@ -1,0 +1,29 @@
+.navbar-fixed-top {
+	background-color: rgb(50,2,50);
+	
+}
+
+.navbar-nav li a{
+	color: rgb(254,203,69);
+	font-family: 'Oswald', serif;
+	font-size: 150%;
+}
+
+.icon-bar{
+	background-color: rgb(254,203,69);
+}
+.navbar-brand {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    text-align: center;
+    margin: auto;
+}
+.navbar-toggle {
+    z-index:3;
+}
+.brand-image {
+	height: 64px;
+	width: auto;
+}
