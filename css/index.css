@@ -1,6 +1,65 @@
-.navbar-fixed-top {
-	background-color: rgb(50,2,50);
-	
+#navbar-image {
+    height: 64px;
+    width: auto;
+    padding: 0;
+    border: 0;
+
+}
+.jumbotron {
+
+    background-image: url(../resources/landing-art.jpg);
+    background-size: cover;
+    margin-top: 4%;
+    height: 100%;
+}
+#jumbotron-search-input {
+
+}
+.input-area {
+    margin-top: 12%;
+}
+.jumbotron .h1 {
+    color: rgb(50,2,50);
+}
+#navbar-custom {
+    background: none;
+    background-color: rgb(50,2,50);
+}
+
+#collapse-button {
+    border-color: rgb(254,203,69);
+
+}
+
+#hamburger1 {
+    background-color: rgb(50,2,50);
+}
+#hamburger1:hover {
+    background-color: rgb(254,203,69);
+}
+#hamburger2 {
+    background-color: rgb(254,203,69);
+}
+
+#hamburger3 {
+    background-color: rgb(50,2,50);
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background-color: rgb(254,203,69);
+}
+#search-button {
+    background-image: none;
+    background-color: rgb(254,203,69);
+    color: white;
+}
+#search-button:hover{
+    background-color: white;
+    color: rgb(254,203,69);
+}
+
+#search-button:active {
+    background-color: white;
 }
 
 .navbar-nav li a{
@@ -9,10 +68,14 @@
 	font-size: 150%;
 }
 
-.icon-bar{
-	background-color: rgb(254,203,69);
+
+
+.navbar-right .navbar-left {
+	background-color: rgb(50,2,50);
 }
+
 .navbar-brand {
+	background-color: rgb(50,2,50);
     position: absolute;
     width: 100%;
     left: 0;
