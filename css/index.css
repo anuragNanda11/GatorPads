@@ -48,14 +48,28 @@
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
     background-color: rgb(254,203,69);
 }
-#search-button {
+#btn-yellow {
     background-image: none;
     background-color: rgb(254,203,69);
     color: white;
 }
-#search-button:hover{
+#btn-yellow:hover{
     background-color: white;
     color: rgb(254,203,69);
+}
+
+#register-modal {
+    margin-left:15%;
+    margin-right:15%;
+}
+.register-modal-input {
+    margin-bottom: 5%;
+}
+#register-modal-header {
+    border-bottom: 0px;
+}
+#register-modal-footer {
+    border-top: 0px;
 }
 
 #search-button:active {
@@ -67,6 +81,11 @@
 	font-family: 'Oswald', serif;
 	font-size: 150%;
 }
+.gator-text {
+    color:rgb(50,2,50);
+}
+
+
 
 
 
