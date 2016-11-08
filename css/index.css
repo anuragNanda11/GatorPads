@@ -109,3 +109,54 @@
 	height: 64px;
 	width: auto;
 }
+
+
+/*CSS Specific for Browse.html*/
+
+
+
+.search-bar-span {
+    border-right-style: groove;
+    padding: 1em;
+    padding-left: 5em;
+    /* padding: 1em; */
+    border-color: rgb(202,202,202);
+}
+
+
+#browse-search-bar {
+    padding-left: .5em;
+    padding-top: 5em;
+    padding-bottom:1em;
+    border-bottom: solid;
+    border-bottom-color:rgb(202,202,202);
+    background-color: rgb(244,244,244);
+}
+
+#browse-search-input {
+    margin-left: 1em;
+}
+
+.custom-button-purple {
+    color: #ffffff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: rgb(50,2,50);
+    border-color: #0044cc #0044cc #002a80;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+}
+
+.search-bar-span {
+    border-right-style: groove;
+    padding: 1em;
+
+    /* padding: 1em; */
+    border-color: rgb(202,202,202);
+}
+
+#left-most-span{
+    padding-left: 5em;
+}
+
+#browsing-image-area {
+    padding-top: 2em;
+}
